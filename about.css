@@ -1,0 +1,121 @@
+h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 2px 3px 5px darkred;
+    text-align: center;
+
+}
+
+.head5 {
+    color: rgb(45, 122, 167);
+
+}
+
+#italic {
+    color: rgb(231, 153, 6);
+
+}
+
+nav {
+    background: rgb(219, 216, 9);
+    text-align: center;
+
+
+}
+
+.nav-wrapper {
+    background-color: tomato;
+
+}
+
+a {
+    text-decoration-line: none;
+
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav li {
+
+        display: inline-block;
+        padding: 30px;
+}
+
+.container {
+    border: 10px dashed greenyellow;
+    margin: 50px 5px;
+    padding: 25px 10px;
+
+}
+
+/* ------------------------------------------------------------------------ */
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 20% ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: black;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
+
+}
+
+.a {
+    grid-column: col / span  1 ;
+    grid-row: row ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(26, 22, 255), rgb(233, 32, 32));
+}
+.b {
+    grid-column: col 3 / span  1 ;
+    grid-row: row ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(33, 25, 75), rgb(76, 48, 238));
+}
+.c {
+    grid-column: col 5 / span  1;
+    grid-row: row 1;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(90, 15, 151), rgb(176, 72, 197));
+}
+.d {
+    grid-column: col 2 / span  1;
+    grid-row: row 3 ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(49, 67, 172), rgb(55, 199, 218));
+}
+
+.e {
+    grid-column: col 4/ span  1;
+    grid-row: row 3;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(243, 70, 40), rgb(252, 248, 24));
+}
+
+.f {
+    grid-column: col 2/ span 3;
+    grid-row: row 2  ;
+    background-color: rgba(49,121,207, 0.5);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(33, 121, 33), rgb(40, 255, 40));
+}

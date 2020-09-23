@@ -1,0 +1,96 @@
+h1 {
+    color: red;
+    text-align: center; 
+    text-shadow: 2px 3px 2px rgb(116, 56, 56);
+}
+
+.head5 {
+    color: rgb(45, 122, 167);
+
+}
+
+#italic {
+    color: rgb(231, 153, 6);
+
+}
+
+nav {
+    background: rgb(219, 216, 9);
+    text-align: center;
+
+
+}
+
+.nav-wrapper {
+    background-color: tomato;
+
+}
+
+a {
+    text-decoration-line: none;
+
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav li {
+
+        display: inline-block;
+        padding: 30px;
+}
+
+.container {
+    border: 10px dashed greenyellow;
+    margin: 50px 5px;
+    padding: 25px 10px;
+
+}
+
+.box {
+    display: inline-block;
+    background: blue;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+    margin: 10px;
+    box-shadow: 5px 15px 2px 5px rgb(115, 121, 124) inset;
+    color: rgb(45, 255, 238);
+}
+
+.kratos {
+    border-radius: 50%;
+}
+
+img {
+    box-shadow: 5px 15px 2px rgb(115, 121, 124);
+
+}
+
+.flex {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+form input, textarea, button {
+    display: block;
+    margin: 30px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 30px;
+}
+
+.input-field {
+    margin: 20px;
+}
+
